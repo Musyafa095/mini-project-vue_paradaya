@@ -1,6 +1,6 @@
 <template>
     <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
-        <div class="text-white text3xl font-bold">LOGO</div>
+        <div class="text-white text-3xl font-bold">LOGO</div>
         <!-- untuk mobile toggle button-->
          <div class="md:hidden z-30">
          <button type="button" class="block focus:outline-none" @click="isMenuOpen = !isMenuOpen">
@@ -13,7 +13,7 @@
          </button>
         </div>
          <!-- Navbar Link-->
-          <nav :class="['Fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
+          <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
             isMenuOpen ? 'block' : 'hidden'
           ]">
             <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0 font-mono">
@@ -41,7 +41,7 @@ const menu = ref ([
 
 ]);
 const isMenuOpen = ref (false)
-const scrollToSection = (href)=>{
+const scrollToSection = (href)=> {
 isMenuOpen.value = false;
 const section = document.querySelector(href);
 if (section){

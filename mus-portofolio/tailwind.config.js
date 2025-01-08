@@ -9,9 +9,13 @@ export default {
       colors:{
         primary: '#f59e0b',
         secondary: '#b22222'
-      }
-    },
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
   },
+},
   plugins: [
     require('daisyui')
   ],
