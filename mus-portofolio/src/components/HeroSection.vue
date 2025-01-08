@@ -14,12 +14,10 @@
                   </span> 
                </h1>
             </div>
-            <p class="text-gray-500 pt-8 text-center lg:text-left mx-auto max-w-xl indent-2 font-roboto">
-               Saya seorang Fullstack Web Developer dan saya adalah orang yang sangat disiplin, 
-               Tepat waktu dan berfokus terhadap hasil bekerja, Namun saja juga
-               bisa realistis saat menentukan target atau tujuan dan
-               selalu berupaya keras untuk mencapai tujuan
-               tersebut dengan cara yang baik dan fisien.
+            <p class="text-gray-500 pt-8 text-center lg:text-left mx-auto max-w-xl indent-4 font-roboto">
+               Saya seorang Fullstack Web Developer yang berfokus pada pengembangan aplikasi web modern menggunakan teknologi terbaru seperti Vue.js, Laravel, dan database MySQL. 
+               Saya memiliki pengalaman dalam membangun aplikasi frontend dan backend yang responsif, skalabel, dan mudah dikelola. 
+               Saya juga tertarik untuk terus belajar dan mengikuti perkembangan teknologi web.
             </p>
             <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:max-auto lg:mx-0">
                <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
