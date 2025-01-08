@@ -1,6 +1,6 @@
 <template>
     <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
-        <div class="text-white text-3xl font-bold">LOGO</div>
+        <div style="text-shadow: 2px 2px 4px teal, -2px -2px 4px purple;" class="text-white text-2xl font-serif font-bold ">MSYAF</div>
         <!-- untuk mobile toggle button-->
          <div class="md:hidden z-30">
          <button type="button" class="block focus:outline-none" @click="isMenuOpen = !isMenuOpen">
