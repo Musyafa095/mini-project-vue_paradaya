@@ -1,6 +1,8 @@
 <template>
-    <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20" id="home">
-        <div style="text-shadow: 2px 2px 4px teal, -2px -2px 4px purple;" class="text-white text-2xl font-serif font-bold ">MSYAF</div>
+    <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
+        <a href="#home">
+        <div id="home" style="text-shadow: 2px 2px 4px teal, -2px -2px 4px purple;" class="text-white text-2xl font-serif font-bold ">MSYAF</div>
+         </a>
         <!-- untuk mobile toggle button-->
          <div class="md:hidden z-30">
          <button type="button" class="block focus:outline-none" @click="isMenuOpen = !isMenuOpen">
@@ -13,7 +15,7 @@
          </button>
         </div>
          <!-- Navbar Link-->
-          <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
+          <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:pr-20 md:flex-row',
             isMenuOpen ? 'block' : 'hidden'
           ]">
             <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0 font-mono">
@@ -32,7 +34,6 @@
 <script setup>
 import {ref} from 'vue'
 const menu = ref ([
-    {name:'Home', href:'#home'},
     {name:'About Me', href:'#about'},
     {name: 'Skills', href: '#skills'},
     {name: 'Project', href: '#project'},

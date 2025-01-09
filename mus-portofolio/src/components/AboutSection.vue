@@ -34,6 +34,20 @@
                selalu berupaya keras untuk mencapai tujuan
                tersebut dengan cara yang baik dan efisien.
             </p>
+            <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
+                <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                    <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
+                    <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
+                </div>
+                <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                    <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+10</h3>
+                    <p class="text-sm sm:text-base text-gray-300">Project</p>
+               </div>
+                <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                    <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+1</h3>
+                    <p class="text-sm sm:text-base text-gray-300">Year Experience</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
