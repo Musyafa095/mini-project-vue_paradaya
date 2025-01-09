@@ -4,7 +4,7 @@
   <div class="mb-4 md:flex md:justify-between xl:pr-16">
     <h2 class="text-4xl font-bold text-white">My Latest Project</h2>
     <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
-        <button class="hover:text-primary" v-for="category in ['all', 'Web Development', 'Grapic Designer']"
+        <button class="hover:text-primary font-montserrat" v-for="category in ['All', 'Web Development', 'Grapic Designer']"
             :key="category" @click="() => selectedCategory = category">
             {{ category }}
         </button>
@@ -60,7 +60,7 @@ const Projects = ref ([
     {
         id: 1,
         category: 'Web Development',
-        description: 'Sebuah hotel yang berlokasi di destinasi wisata pantai terkenal di Sukabumi, Jawa Barat. Website ini dirancang untuk memberikan pengalaman pengguna yang mudah dan informatif bagi calon pengunjung yang ingin memesan kamar, mengetahui fasilitas, dan mendapatkan informasi tentang atraksi wisata lokal.',
+        description: 'Sebuah hotel yang berlokasi di destinasi wisata pantai terkenal di Sukabumi,Jawa Barat. Website ini dirancang untuk memberikan pengalaman pengguna yang mudah dan informatif bagi calon pengunjung yang ingin memesan, mengetahui fasilitas, dan mendapatkan informasi tentang atraksi wisata lokal.',
         image: 'src/assets/project.jpeg',
         number: 'project 1',
         title: 'Seaside',
@@ -71,10 +71,10 @@ const Projects = ref ([
     {
        id: 2,
         category: 'Grapic Designer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut egestas felis. Sed consectetur, quam sed pellentesque elementum, ipsum elit sollicitudin lectus, at condimentum massa neque vel enim.',
+        description: 'Kali ini bermain dengan nuansa ungu yang elegan dikombinasikan dengan ilustrasi yang fun. Simple tapi tetep eye-catching, Btw ini hasil eksplor desain landing page buat portfolio. Masih banyak yang perlu dipelajari, tapi happy sama hasilnya!, Kalau ada saran atau masukan, Silahkan langsung tulis di komen ya! 🙌',
         image:'src/assets/design.png',
         number: 'project 2',
-        title: '',
+        title: 'C-Media Digital Agency',
         technologies: ['Canva', 'Lightroom',],
         gitURL:'',
         webURL:'',
@@ -82,9 +82,9 @@ const Projects = ref ([
   ]);
    
 
-const selectedCategory = ref('all');
+const selectedCategory = ref('All');
 const filteredProject = computed(() => {
-  if (selectedCategory.value === 'all'){
+  if (selectedCategory.value === 'All'){
     return Projects.value;
   }
   return Projects.value.filter(project => project.category.toLocaleLowerCase() === selectedCategory.value.toLocaleLowerCase());

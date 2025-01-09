@@ -1,5 +1,5 @@
 <template>
-<section class="text-white mt-18" id="about">
+<section class="text-white mt-18" >
     <div class="absolute z-0 top-[93-rem] inset-x-0-h-64 flex items-start">
         <div class="h-24 w-64 bg-gradient-to-bacr from-primary via-secondary blur-2xl to-[#570cac] opacity-20"></div>
     </div>
@@ -22,7 +22,7 @@
              </div>
             </div>
         </div>
-        <div class="mt-4 md:mt-0 text-left flex flex-col z-10-h-full" data-aos="flip-right">
+        <div id="about" class="mt-4 md:mt-0 text-left flex flex-col z-10-h-full" data-aos="flip-right">
             <h2 class="text-4xl  font-bold text-white md:text-center text-left mb-4">More
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
                 Me
@@ -40,7 +40,7 @@
                     <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
                 </div>
                 <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                    <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+10</h3>
+                    <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+2</h3>
                     <p class="text-sm sm:text-base text-gray-300">Project</p>
                </div>
                 <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">

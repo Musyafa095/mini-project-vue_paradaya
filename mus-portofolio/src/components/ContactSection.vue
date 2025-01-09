@@ -46,11 +46,11 @@
                 </div>
             </div>
             <div
-            style="background: #111a3e; width: 100%;height: 100%; border-radius: 20px;
+            style="background: #111a3e; width: 100%;height: 100%; border-radius: 16px;
             overflow: hidden;border: 1px solid #111a3e;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
             <form class="flex flex-col p-2" data-aos="zoom-in-up" >
                 <div class="mb-6">
-                    <label for="email" class="text-white block mb-2 text-sm font-medium">email</label>
+                    <label for="email" class="text-white block mb-2 text-sm font-medium">Email</label>
                     <input type="email" id="email" class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                     placeholder="email@gmail.com" name="email">
                 </div>
