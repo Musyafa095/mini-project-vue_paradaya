@@ -22,7 +22,7 @@
              </div>
             </div>
         </div>
-        <div id="about" class="mt-4 md:mt-0 text-left flex flex-col z-10-h-full" data-aos="flip-right">
+        <div class="mt-4 md:mt-0 text-left flex flex-col z-10-h-full" data-aos="flip-right">
             <h2 class="text-4xl  font-bold text-white md:text-center text-left mb-4">More
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
                 Me

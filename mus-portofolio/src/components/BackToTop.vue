@@ -14,6 +14,8 @@ const handleScroll = ()=>{
 const scrollToTop = ()=>{
     window.scrollTo({top:0,behavior:'smooth'})
 }
+
+    
 onMounted(()=>{
     window.addEventListener('scroll',handleScroll)
 });
@@ -21,4 +23,5 @@ onMounted(()=>{
 onUnmounted(()=>{
     window.removeEventListener('scroll',handleScroll);
 })
+
 </script>
