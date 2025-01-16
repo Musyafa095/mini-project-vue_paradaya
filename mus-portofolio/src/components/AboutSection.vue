@@ -16,8 +16,8 @@
                     <h3 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
                         {{ element.School }}
                     </h3>
-                    <p class="text-white">{{ element.program }}</p>
-                    <p class="text-white">{{ element.year }}</p>
+                    <p class="text-white font-mono">{{ element.program }}</p>
+                    <p class="text-white font-roboto">{{ element.year }}</p>
                 </div>
              </div>
             </div>
@@ -58,7 +58,7 @@ const education=ref([
     {
         id:1,
         School: 'Budi Guna Private Senior High School',
-        program: 'Math & Science',
+        program: 'Social Sciences',
         year : '2021 - 2024'
 
     }

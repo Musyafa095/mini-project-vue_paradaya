@@ -15,7 +15,7 @@
                </h1>
             </div>
             <p class="text-gray-500 pt-8 text-center lg:text-left mx-auto max-w-xl indent-4 font-roboto">
-               Saya seorang Fullstack Web Developer yang berfokus pada pengembangan aplikasi web modern menggunakan teknologi terbaru seperti Vue.js, Laravel, dan database MySQL. 
+               Saya seorang Junior Fullstack Web Developer yang berfokus pada pengembangan aplikasi web modern menggunakan teknologi terbaru seperti Vue.js, Laravel, dan database MySQL. 
                Saya memiliki pengalaman dalam membangun aplikasi frontend dan backend yang responsif, skalabel, dan mudah dikelola. 
                Saya juga tertarik untuk terus belajar dan mengikuti perkembangan teknologi web.
             </p>
