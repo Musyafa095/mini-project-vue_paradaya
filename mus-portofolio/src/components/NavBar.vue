@@ -20,7 +20,7 @@
                <li v-for="item in menu" :key="item.id">
       <router-link
         :to="item.url"
-        class="block text-white transition hover:text-primary ease-linear text-2xl md:text-lg "
+        class="block text-white font-medium transition hover:text-primary ease-linear text-2xl md:text-lg font-sans "
         @click="scrollToSection(item.url)"
       >
         {{ item.name }}

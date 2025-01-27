@@ -78,6 +78,17 @@ const Projects = ref ([
         technologies: ['Canva', 'Lightroom',],
         gitURL:'',
         webURL:'',
+    },
+    {
+       id: 3,
+        category: 'Web Development',
+        description: 'TokoKita adalah platform e-commerce yang saya kembangkan untuk membantu usaha mikro, kecil, dan menengah (UMKM) memperluas jangkauan pasar mereka secara digital. Aplikasi ini dirancang dengan fokus pada kebutuhan lokal dan memberikan solusi praktis untuk menghubungkan pelaku usaha dengan pelanggan.',
+        image:'/assets/TokoKita.jpg',
+        number: 'project 3',
+        title: 'Ec-commerce',
+        technologies: ['Vue.js', 'Tailwind', 'Laravel'],
+        gitURL:'',
+        webURL:'https://fe-kelompok5.vercel.app/',
     }
   ]);
    

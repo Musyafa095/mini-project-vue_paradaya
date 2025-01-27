@@ -44,6 +44,11 @@ const skills = ref ([
     id: 3,
     name: 'PHP',
     width: '70%'
+},
+{
+    id: 4,
+    name: 'Python',
+    width: '90%'
 }
 
 ])
