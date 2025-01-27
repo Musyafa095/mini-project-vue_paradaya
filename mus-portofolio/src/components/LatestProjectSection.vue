@@ -87,7 +87,7 @@ const Projects = ref ([
         number: 'project 3',
         title: 'Ec-commerce',
         technologies: ['Vue.js', 'Tailwind', 'Laravel'],
-        gitURL:'',
+        gitURL:'https://fe-kelompok5.vercel.app/',
         webURL:'https://fe-kelompok5.vercel.app/',
     }
   ]);
