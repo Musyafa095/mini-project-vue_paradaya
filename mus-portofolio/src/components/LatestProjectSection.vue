@@ -82,12 +82,12 @@ const Projects = ref ([
     {
        id: 3,
         category: 'Web Development',
-        description: 'TokoKita adalah platform e-commerce yang saya kembangkan untuk membantu usaha mikro, kecil, dan menengah (UMKM) memperluas jangkauan pasar mereka secara digital. Aplikasi ini dirancang dengan fokus pada kebutuhan lokal dan memberikan solusi praktis untuk menghubungkan pelaku usaha dengan pelanggan.',
+        description: 'TokoKita adalah platform e-commerce yang saya kembangkan bersama tim untuk membantu usaha mikro, kecil, dan menengah (UMKM) memperluas jangkauan pasar mereka secara digital. Aplikasi ini dirancang dengan fokus pada kebutuhan lokal dan memberikan solusi praktis untuk menghubungkan pelaku usaha dengan pelanggan.',
         image:'/assets/TokoKita.jpg',
         number: 'project 3',
         title: 'Ec-commerce',
         technologies: ['Vue.js', 'Tailwind', 'Laravel'],
-        gitURL:'',
+        gitURL:'https://fe-kelompok5.vercel.app/',
         webURL:'https://fe-kelompok5.vercel.app/',
     },
   {
@@ -98,7 +98,7 @@ const Projects = ref ([
         number: 'project 4',
         title: 'Anime Streaming',
         technologies: ['Vue.js', 'Tailwind', 'Laravel'],
-        gitURL:'',
+        gitURL:'https://movie-animeflix.vercel.app/',
         webURL:'https://movie-animeflix.vercel.app/',
     }
   ]);
