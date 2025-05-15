@@ -87,8 +87,19 @@ const Projects = ref ([
         number: 'project 3',
         title: 'Ec-commerce',
         technologies: ['Vue.js', 'Tailwind', 'Laravel'],
-        gitURL:'https://fe-kelompok5.vercel.app/',
+        gitURL:'',
         webURL:'https://fe-kelompok5.vercel.app/',
+    },
+  {
+       id: 4,
+        category: 'Web Development',
+        description: 'AnimeFlix adalah platform streaming anime yang saya kembangkan sebagai bagian dari proyek pribadi/tim. Platform ini dirancang untuk menyediakan pengalaman menonton anime yang cepat, responsif, dan user-friendly. Fitur utama meliputi pencarian judul anime, daftar favorit, seta update episode terbaru..',
+        image:'/assets/anime.jpg',
+        number: 'project 4',
+        title: 'Anime Streaming',
+        technologies: ['Vue.js', 'Tailwind', 'Laravel'],
+        gitURL:'',
+        webURL:'https://movie-animeflix.vercel.app/',
     }
   ]);
    
